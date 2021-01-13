@@ -15,12 +15,16 @@ npm install --save my-react-module
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'my-react-module'
-import 'my-react-module/dist/index.css'
+import Cardy from 'my-react-module'
+import 'my-react-module/src/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return  <Cardy 
+              headerContent="Card Header Content"
+              bodyContent="Car Body Content"
+              footerContent="Card Footer Content"
+            />
   }
 }
 ```
