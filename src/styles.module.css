@@ -1,0 +1,36 @@
+/* add css module styles here (optional) */
+
+.test {
+  margin: 2em;
+  padding: 0.5em;
+  border: 2px solid #000;
+  font-size: 2em;
+  text-align: center;
+}
+
+.ss-card-bloc {
+  width: 50%;
+  margin-right: 15px;
+  margin-left: 15px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.ss-card-header {
+  padding: 15px;
+  border-bottom: 1px solid #ececec;
+}
+
+.ss-card-header-title {
+  font-size: 20px;
+}
+
+.ss-card-body {
+  padding: 15px;
+}
+
+.ss-card-footer {
+  padding: 15px;
+  border-top: 1px solid #ececec;
+}
