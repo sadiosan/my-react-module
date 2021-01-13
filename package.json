@@ -11,6 +11,11 @@
   "engines": {
     "node": ">=10"
   },
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
@@ -22,7 +27,7 @@
     "test:watch": "react-scripts test --env=jsdom",
     "predeploy": "cd example && npm install && npm run build",
     "deploy": "gh-pages -d example/build",
-    "publish:npm": "rm -rf dist && mkdir dist &&  babel ./src/components -d dist --copy-files"
+    "publish:npm": "rm -rf dist && mkdir dist &&  babel ./src/Components -d dist --copy-files"
   },
   "peerDependencies": {
     "react": "^16.0.0"
