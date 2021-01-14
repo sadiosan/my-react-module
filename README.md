@@ -16,7 +16,7 @@ npm install --save my-react-module
 import React, { Component } from 'react'
 
 import Cardy from 'my-react-module'
-import 'my-react-module/src/index.css'
+import 'my-react-module/dist/Card/Card.css'
 
 class Example extends Component {
   render() {
