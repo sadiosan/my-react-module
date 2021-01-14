@@ -28,8 +28,8 @@ export default class Card extends Component {
     }
 }
 
-Card.propTypes = {
-  headerContent: React.PropTypes.string.isRequired,
-  bodyContent: React.PropTypes.string.isRequired,
-  footerContent: React.PropTypes.string.isRequired,
-}
+// Card.propTypes = {
+//   headerContent: React.PropTypes.string.isRequired,
+//   bodyContent: React.PropTypes.string.isRequired,
+//   footerContent: React.PropTypes.string.isRequired,
+// }
