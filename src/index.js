@@ -8,8 +8,8 @@ const Cardy = (props) => {
 
 export default Cardy;
 
-Cardy.propTypes = {
-  headerContent: React.PropTypes.string.isRequired,
-  bodyContent: React.PropTypes.string.isRequired,
-  footerContent: React.PropTypes.string.isRequired,
-}
+// Cardy.propTypes = {
+//   headerContent: React.PropTypes.string.isRequired,
+//   bodyContent: React.PropTypes.string.isRequired,
+//   footerContent: React.PropTypes.string.isRequired,
+// }
